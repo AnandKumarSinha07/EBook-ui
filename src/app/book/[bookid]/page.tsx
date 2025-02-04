@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Book } from '@/types';
+import DownloadButton from './component/Download';
 
 const page=async({params}:{params:{bookid:string}})=> {
 
@@ -45,6 +46,8 @@ const page=async({params}:{params:{bookid:string}})=> {
                     style={{ width: 'auto', height: 'auto' }}
                 />
             </div>
+
+            <DownloadButton fileLink={book.file}/>
         </div>
 
     </div>
