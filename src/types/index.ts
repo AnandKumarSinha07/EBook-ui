@@ -3,6 +3,7 @@ export type Book={
   title:string,
   coverImg:string,
   file:string,
+  description:string,
   author:Author
 
 }

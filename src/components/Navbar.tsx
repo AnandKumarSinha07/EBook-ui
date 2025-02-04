@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 function Navbar() {
   return (
@@ -11,9 +12,11 @@ function Navbar() {
                                <Hexagon/>
                                <BookIcon/> 
                             </div>
+                            <Link href={"/"}>
                             <span className="text-xl font-bold uppercase tracking-tight text-primary-500">
                                 Coders Book
                             </span>
+                            </Link>
                         </div>
                     
                 </div>

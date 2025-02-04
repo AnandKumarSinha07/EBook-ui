@@ -5,6 +5,8 @@ import React from 'react';
 
 const BookCard = ({ book }: { book: Book }) => {
 
+    
+
     return (
         <div className="flex gap-5 border p-5 shadow-md rounded">
             <Image
